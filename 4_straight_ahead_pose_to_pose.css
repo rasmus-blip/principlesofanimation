@@ -1,0 +1,80 @@
+#ball {
+    animation-name: bounce;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+}
+
+
+@keyframes bounce {
+    0%{ 
+transform: translateY(0);
+animation-timing-function: cubic-bezier(0.78, 0.03, 0.99, 0.99);
+    }
+    10% {
+        transform: translateY(calc(60vh - 10vw));
+        animation-timing-function: cubic-bezier(0.24, 0.9, 0.99, 0.99);
+    }
+    20% {
+        transform: translateY(calc(30vh - 10vw));
+        animation-timing-function: cubic-bezier(0.78, 0.03, 0.99, 0.99);
+
+    }
+    30% {
+        transform: translateY(calc(60vh - 10vw));
+        animation-timing-function: cubic-bezier(0.24, 0.9, 0.99, 0.99);
+
+    }
+    40% {
+        transform: translateY(calc(40vh - 10vw));
+        animation-timing-function: cubic-bezier(0.78, 0.03, 0.99, 0.99);
+
+    }
+    50% {
+        transform: translateY(calc(60vh - 10vw));
+        animation-timing-function: cubic-bezier(0.24, 0.9, 0.99, 0.99);
+
+    }
+    60% {
+        transform: translateY(calc(50vh - 10vw));
+        animation-timing-function: cubic-bezier(0.78, 0.03, 0.99, 0.99);
+
+    }
+    70% {
+        transform: translateY(calc(60vh - 10vw));
+        animation-timing-function: cubic-bezier(0.24, 0.9, 0.99, 0.99);
+
+    } 
+    
+    100% {
+        transform: translateY(calc(60vh - 10vw));
+        animation-timing-function: cubic-bezier(0.78, 0.03, 0.99, 0.99);
+
+    }
+
+
+
+
+}
+
+#container {
+    animation-name: movex;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+    animation-timing-function: ease-out;
+
+}
+
+
+@keyframes movex {
+    0% {
+        transform: translateX(0)
+    }
+    70% {
+        transform: translateX(44vw);
+    }
+
+    100% {
+        transform: translateX(44vw);
+    }
+}

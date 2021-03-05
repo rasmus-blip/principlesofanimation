@@ -1,0 +1,52 @@
+.linear {
+animation-name: kf;
+animation-duration: 2s;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+}
+
+@keyframes kf {
+    0% {
+        transform: translateX(0vw);
+    }
+
+    100% {
+        transform:translateX(100vw)
+    }
+}
+
+.ease {
+    animation-name: kf;
+animation-duration: 2s;
+animation-iteration-count: infinite;
+animation-timing-function: ease;
+
+}
+
+.ease-in {
+    animation-name: kf;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+}
+
+.ease-out {
+    animation-name: kf;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+}
+
+.ease-in-out {
+    animation-name: kf;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.steps {
+    animation-name: kf;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: steps(10);
+}

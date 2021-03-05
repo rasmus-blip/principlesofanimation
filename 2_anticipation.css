@@ -1,0 +1,15 @@
+.disappear {
+    animation-name: disappear;
+    animation-iteration-count: 1;
+    animation-duration: 2s;
+    animation-timing-function: cubic-bezier(0,-0.47,.83,.67);
+}
+
+@keyframes disappear {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(0);
+    }
+}

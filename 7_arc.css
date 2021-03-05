@@ -1,0 +1,17 @@
+.addtocart {
+   offset-path: path("m 0, 0 c 0 0 0 0 220 -140");
+   animation-name: arc;
+   animation-duration: 1s;
+   animation-iteration-count: infinite;
+   animation-timing-function: cubic-bezier(0.64, -.59, 0.94, 0.61);
+}
+
+@keyframes arc {
+0% {
+    offset-distance: 0;
+}
+
+100% {
+    offset-distance: 100%;
+}
+}
